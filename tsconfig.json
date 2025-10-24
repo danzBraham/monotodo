@@ -1,0 +1,6 @@
+{
+  "extends": "@monotodo/typescript-config/base",
+  "compilerOptions": {
+    "typeRoots": ["./types", "./node_modules/@types"]
+  }
+}

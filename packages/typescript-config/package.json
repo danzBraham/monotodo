@@ -1,0 +1,9 @@
+{
+  "name": "@monotodo/typescript-config",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./base": "./base.json",
+    "./base-react": "./base-react.json"
+  }
+}

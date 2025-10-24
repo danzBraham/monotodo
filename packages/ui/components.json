@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "components": "@monotodo/ui/components",
+    "utils": "@monotodo/ui/lib/utils",
+    "hooks": "@monotodo/ui/hooks",
+    "lib": "@monotodo/ui/lib",
+    "ui": "@monotodo/ui/components"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "monotodo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r --parallel --aggregate-output dev",
+    "lint": "pnpm -r --parallel lint",
+    "build": "pnpm -r build",
+    "start": "pnpm -r --parallel start",
+    "check-types": "pnpm -r --parallel check-types",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@monotodo/eslint-config": "workspace:*",
+    "@monotodo/typescript-config": "workspace:*",
+    "eslint": "^9.38.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.1",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "extends": "@monotodo/typescript-config/base-react",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

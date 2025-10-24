@@ -1,0 +1,13 @@
+# Dependencies
+node_modules
+.turbo
+
+# Build outputs
+dist
+build
+.next
+.vite
+
+# Lock files
+pnpm-lock.yaml
+package-lock.json
