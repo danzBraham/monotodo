@@ -15,9 +15,9 @@
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
+    "@dotenvx/dotenvx": "^1.51.0",
     "@monotodo/eslint-config": "workspace:*",
     "@monotodo/typescript-config": "workspace:*",
-    "eslint": "^9.38.0",
     "husky": "^9.1.7",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.7.1",
