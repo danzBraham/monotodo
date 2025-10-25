@@ -1,7 +1,7 @@
 import { serve } from "@hono/node-server";
 import app from "./index.js";
 
-const PORT = Number(process.env.API_PORT) || 8000;
+const PORT = parseInt(process.env.API_PORT || "8000", 10);
 
 serve(
   {

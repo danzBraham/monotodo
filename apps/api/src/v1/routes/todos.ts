@@ -7,7 +7,7 @@ todos.get("/", (c) => {
 });
 
 todos.post("/", (c) => {
-  return c.json("Create  todo");
+  return c.json("Create todo");
 });
 
 todos.get("/:id", (c) => {
