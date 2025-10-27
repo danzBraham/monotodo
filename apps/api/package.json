@@ -2,9 +2,9 @@
   "name": "api",
   "type": "module",
   "scripts": {
-    "dev": "dotenvx run -f ../../.env -- tsx watch src/server.ts",
+    "dev": "dotenvx run -- tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node --env-file=../../.env dist/server.js"
+    "start": "node --env-file=.env dist/server.js"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.5",
