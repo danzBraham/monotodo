@@ -1,4 +1,4 @@
-import { prisma } from "../client.js";
+import { prisma } from "../src/client.js";
 import type { Prisma } from "../generated/prisma/client";
 
 const users: Prisma.UserCreateInput[] = [
