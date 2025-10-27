@@ -1,0 +1,5 @@
+{
+  "extends": "@monotodo/typescript-config/base",
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "generated"]
+}
